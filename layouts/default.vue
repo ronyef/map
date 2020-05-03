@@ -11,7 +11,7 @@
       <v-btn text color="white" nuxt-link to="/services">Services</v-btn>
       <v-btn text color="white">Works</v-btn>
       <v-btn text color="white">Products</v-btn>
-      <v-btn text color="white">Blog</v-btn>
+      <v-btn text color="white" nuxt-link to="/blog">Blog</v-btn>
 
       <!-- <v-btn icon>
         <v-icon>mdi-heart</v-icon>
