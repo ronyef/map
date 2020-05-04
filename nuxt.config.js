@@ -43,7 +43,9 @@ export default {
     // Doc: https://http.nuxtjs.org
     "@nuxt/http",
     // TODO: Remove it if you want to eject from codeSandbox
-    "./codesandbox"
+    "./codesandbox",
+    //MD
+    "@nuxtjs/markdownit"
   ],
 
   buildModules: ["@nuxtjs/vuetify"],
@@ -54,6 +56,10 @@ export default {
       },
       icons: "mdi"
     }
+  },
+
+  markdownit: {
+    injected: true
   },
 
   /*
